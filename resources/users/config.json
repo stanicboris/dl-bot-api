@@ -1,0 +1,13 @@
+{
+	"type": "UserCollection",
+	"properties": {
+		"rank": {
+			"name": "rank",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "rank",
+			"order": 0
+		}
+	}
+}

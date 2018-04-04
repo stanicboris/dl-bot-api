@@ -1,0 +1,37 @@
+{
+	"type": "Collection",
+	"properties": {
+		"title": {
+			"name": "title",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "title",
+			"order": 0
+		},
+		"originalLink": {
+			"name": "originalLink",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "originalLink",
+			"order": 1
+		},
+		"unlockedLink": {
+			"name": "unlockedLink",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "unlockedLink",
+			"order": 2
+		},
+		"tags": {
+			"name": "tags",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "tags",
+			"order": 3
+		}
+	}
+}
