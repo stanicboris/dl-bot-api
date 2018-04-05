@@ -1,6 +1,7 @@
 // hello-server-attach.js
 var PORT = process.env.PORT || 3000;
 var ENV = process.env.NODE_ENV || 'development';
+process.env['DEBUG'] = '*';
 
 // setup http + express + socket.io
 var express = require('express');
